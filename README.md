@@ -1,1 +1,1 @@
-# Bash-Scripting
+# Learn to automate wordpress installation  
