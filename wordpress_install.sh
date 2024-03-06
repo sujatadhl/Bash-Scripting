@@ -54,7 +54,9 @@ cat > /etc/apache2/sites-available/wordpress.conf <<EOF
 </VirtualHost>
 EOF
 
-sudo a2ensite wordpress
+sudo a2ensite wordpress.conf
+sudo a2enmod rewrite
+sudo a2dissite 000-default
 sudo service apache2 reload
 
 
